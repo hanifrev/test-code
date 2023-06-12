@@ -39,7 +39,7 @@ const ShapeEditor: React.FC<ShapeEditorProps> = ({
 
       // Draw the shapes
       shapes.forEach((shape) => {
-        const { type, x, y, width, height } = shape;
+        const { x, y, width, height } = shape;
         context.fillStyle = "rgba(255, 0, 0, 0.5)";
         context.fillRect(x, y, width, height);
 
